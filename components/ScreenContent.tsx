@@ -14,6 +14,8 @@ export const ScreenContent = ({ title, path, children }: ScreenContentProps) => 
       <Text className={styles.title}>{title}</Text>
       <View className={styles.separator} />
       <EditScreenInfo path={path} />
+
+      <div className="text-red-500">hello world</div>
       {children}
     </View>
   );
