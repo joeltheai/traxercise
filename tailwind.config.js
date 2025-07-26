@@ -4,7 +4,20 @@ module.exports = {
 
   presets: [require('nativewind/preset')],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'IBMPlexSerif': [
+          'IBMPlexSerif_400Regular',
+          'IBMPlexSerif_300Light',
+          'IBMPlexSerif_500Medium',
+          'IBMPlexSerif_600SemiBold',
+          'IBMPlexSerif_700Bold',
+          'IBMPlexSerif_200ExtraLight',
+          'IBMPlexSerif_100Thin',
+        ],
+        'IBMPlexSerif_300Light': ['IBMPlexSerif_300Light'],
+      },
+    },
   },
   plugins: [],
 };

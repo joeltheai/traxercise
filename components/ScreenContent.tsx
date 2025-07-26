@@ -15,8 +15,11 @@ export const ScreenContent = ({ title, path, children }: ScreenContentProps) => 
       <View className={styles.separator} />
       <EditScreenInfo path={path} />
 
-      <Text className="text-red-500">hello world</Text>
-      <Text className="text-green-500">bye world</Text>
+      <Text className="text-3xl font-IBMPlexSerif font-light">hello world (light)</Text>
+      <Text className="text-2xl font-IBMPlexSerif font-normal">bye world (normal)</Text>
+      <Text className="text-xl font-IBMPlexSerif font-medium">medium text</Text>
+      <Text className="text-lg font-IBMPlexSerif font-semibold">semibold text</Text>
+      <Text className="text-base font-IBMPlexSerif font-bold">bold text</Text>
       {children}
     </View>
   );
